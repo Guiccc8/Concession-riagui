@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+body{ width: 100%;
+ background: linear-gradient(to top, #101010, #74d8e6);
+ background-repeat: no-repeat;
+}
+ 
+header{ 
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    height: 70px;
+    background-color: #101010;
+    padding: 10px;
+    box-shadow: 0px 5px 20px black;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+ .logo{width: 40px;
+height: 40px;
+border-radius: 10px;
+background-color: #ccc;}
+
+.menu{display: flex;
+list-style: none;
+
+}
+
+
+.menu li a{ display: block;
+color: #fff;
+margin-left: 10px;
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;
+}
+
+.menu li a:hover{ display: block;
+    color: #fff;
+    margin-left: 10px;
+    background-color: #333;
+    }
+    
+    
+h1{text-align: center;
+color:#fff;
+margin-top: 20px;}
+
+img{width:100%;}
+
+.container{max-width: 1200px;
+margin: 0 auto;
+display:flex;
+flex-wrap: wrap;
+text-align: center;
+justify-content: center;
+}
+
+.container div {flex: 1 1 300px;
+margin:10px;
+max-width: 376px;}
+
+.container div img{
+width: 346px; 
+height: 259px;
+margin-top: 10px;
+
+}
+div h2{
+    text-align:center;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+  
+}
+
+.primeiro h2{ margin-top:10px;}
+
+div img{width:630px;
+height: 371px;
+box-shadow: 5px  10px 10px #000;
+border-radius: 10px;}
+
+.primeiro {
+height:450px;
+text-align: center;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 30px;
+padding-top: 15px;
+width: 700px;;
+
+}
+
+ div{background-color: #8595b4;
+    border-radius: 10px;}
+
+ .container div h2{ margin-top:10px;}
+
+.compra h4{background-color: yellow;
+border-radius: 10px;
+}
+
+.compra h4 a {text-decoration: none;}
+
+h3{margin-top: 5px;}
+
+ .rodape{background-color: #ffffff;
+height: 80px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+flex-direction: column;
+}
+
+.fim p{color: rgb(43, 52, 52);
+white-space: nowrap;
+background-color: rgb(255, 255, 255);
+
+}
+
+
+.rede_social{ display: flex;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    margin-top: 10px;
+}
+
+.rede_social li a{color: rgb(43, 52, 52);
+    text-decoration: none;  
+    margin-left: 10px;
+}
+
